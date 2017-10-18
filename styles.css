@@ -1,0 +1,36 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+div{
+  width: 20%;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+div.main-color1 {
+  background-color: #2c3b3e;
+}
+
+div.color2 {
+  background-color: #29282f;
+}
+
+.color3 {
+  background-color: #2e2e3e;
+}
+
+.color4 {
+  background-color: #21202b;
+}
+
+.color5 {
+  background-color: #191820;
+}
+
+button {
+  
+}
