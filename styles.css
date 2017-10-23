@@ -5,38 +5,53 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-/*  background: url('robot.jpg') no-repeat;
-  background-size: cover;*/
 }
 
-header {
-  float:right;
+section {
   height: 600px;
   width: 400px;
   margin: 0px;
+  background-image: url(maria.jpg);
+  background-size: cover;
+  background-position: 80%, 80%;
 }
 
 main {
   height: 100%;
-  width: 60%;
+  width: 100%;
   padding: 10px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: wrap;
   margin: 0px;
   padding: 0px;
+  align-content: center;
 }
-
 
 img {
 }
 
 div {
+  color: white;
+  display: flex;
   height: 200px;
   width: 200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon {
+  width: 50px;
+  margin: 10px;
 }
 
 #header {
   width: 400px;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px;
+  display: inline-block;
+  line-height: 2em;
 }
 
 .main-color1 {
@@ -61,5 +76,5 @@ div {
 
 
 button {
-  
+
 }
