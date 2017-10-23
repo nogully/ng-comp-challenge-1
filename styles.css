@@ -1,21 +1,49 @@
-body{
-  font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-div{
-  width: 20%;
-  padding: 10px;
+body {
+  font-family: 'Open Sans', sans-serif;
+/*  background: url('robot.jpg') no-repeat;
+  background-size: cover;*/
 }
+
+header {
+  float:right;
+  height: 600px;
+  width: 400px;
+  margin: 0px;
+}
+
+main {
+  height: 100%;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 img {
+}
+
+div {
+  height: 200px;
   width: 200px;
 }
 
-div.main-color1 {
+#header {
+  width: 400px;
+}
+
+.main-color1 {
   background-color: #2c3b3e;
 }
 
-div.color2 {
+.color2 {
   background-color: #29282f;
 }
 
@@ -30,6 +58,7 @@ div.color2 {
 .color5 {
   background-color: #191820;
 }
+
 
 button {
   
