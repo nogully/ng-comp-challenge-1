@@ -4,27 +4,31 @@
 }
 
 body {
+  background-color: #CCCCCC;
   font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: row;
 }
 
 section {
-  height: 600px;
-  width: 400px;
-  margin: 0px;
-  background-image: url(maria.jpg);
+  width: 40vw;
+  background-image: url('maria.jpg');
   background-size: cover;
-  background-position: 80%, 80%;
+  background-position: 50% 50%;
 }
 
 main {
-  height: 100%;
-  width: 100%;
   padding: 10px;
   display: flex;
   flex-flow: wrap;
   margin: 0px;
   padding: 0px;
   align-content: center;
+  height: 100vh;
+  width: 60vw;
+  flex-direction: row;
 }
 
 img {
@@ -33,11 +37,12 @@ img {
 div {
   color: white;
   display: flex;
-  height: 200px;
-  width: 200px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 20vw;
+  width: 20vw;
+
 }
 
 .icon {
@@ -46,7 +51,7 @@ div {
 }
 
 #header {
-  width: 400px;
+  width: 40vw;
   align-items: flex-start;
   justify-content: space-around;
   padding: 20px;
@@ -78,3 +83,4 @@ div {
 button {
 
 }
+
