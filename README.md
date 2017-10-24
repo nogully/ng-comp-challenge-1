@@ -4,4 +4,4 @@ Turing School Mod 1 assignment to create a responsive site based on a flat desig
 
 Assignment link:  http://frontend.turing.io/projects/m1-static-comp-1.html
 
-![Original design](/static-comp-challenge-1.jpg)
+![Original design](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
