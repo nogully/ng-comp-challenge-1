@@ -31,7 +31,9 @@ main {
   flex-direction: row;
 }
 
-img {
+.mini-icon {
+  width: 1vw;
+  margin-right: .25vw;
 }
 
 div {
@@ -42,7 +44,12 @@ div {
   flex-direction: column;
   height: 20vw;
   width: 20vw;
+}
 
+.square {
+  font-weight: 600;
+  font-size: .7em;
+  letter-spacing: 1px;
 }
 
 .icon {
@@ -79,8 +86,30 @@ div {
   background-color: #191820;
 }
 
-
 button {
+  border: 1.5px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFF;
+  margin: 10px 10px 0px 0px;
+  width: 10vw;
+  height: 4vw;
+  font-size: .7em;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
 
+h1 {
+  margin-top: 3vw;
+  margin-bottom: 1vw;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+p {
+  font-weight: 300;
+  font-size: .7em;
+  line-height: 2em;
+  letter-spacing: 1px;
 }
 
